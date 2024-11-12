@@ -1,0 +1,78 @@
+Q1) Write a PL/SQL program to find sum of two numbers.
+
+Step 1: START
+Step 2: Declare variables to store two numbers and sum.
+Step 3: Read in values of two numbers.
+Step 4: sum = num1 + num2
+Step 5: Display the sum value.
+Step 6: STOP
+
+
+Q2) Write a PL/SQL program to check if a number is odd
+    or even.
+
+Step 1: START
+Step 2: Declare variables to store a number and remainder.
+Step 3: Read in value for number.
+Step 4: Calculate remainder when dividing number by 2.
+            remainder = num % 2
+Step 5: If remainder = 0, then
+            Display number is even
+        Else
+            Display number is odd
+        End if
+Step 6: STOP
+
+
+Q3) Write a PL/SQL program to find largest of 3 numbers.
+
+Step 1: START
+Step 2: Declare and initialize 3 variables with numbers.
+Step 3: If num1 > num2 and num1 > num3, then
+            Display num1 is the largest number
+        Else if num2 > num1 and num2 > num3, then
+            Display num2 is the largest number
+        Else
+            Display num3 is the largest number
+        End if
+Step 4: STOP
+
+
+Q4) Write a PL/SQL program to find average of first
+    n natural numbers.
+
+Step 1: START
+Step 2: Declare variables to store values of number, counter,
+        sum and average.
+Step 3: Read in value of number.
+Step 4: initialize sum to 0 and counter to 1.
+Step 5: Begin loop
+            sum = sum + counter
+            counter = counter + 1
+            If counter > num, then exit loop
+        End loop
+Step 6: Calculate average as sum / num
+Step 7: Display values of sum and average.
+Step 8: STOP
+
+
+Q5) Write a PL/SQL program for displaying grade
+    of students.
+
+Step 1: START
+Step 2: Declare a variables to store grade value.
+Step 3: Read in value of grade.
+Step 4: Switch grade
+            If grade is A, then
+                Display grade is Outstanding
+            If grade is B, then
+                Display grade is Excellent
+            If grade is C, then
+                Display grade is Very Good
+            If grade is D, then
+                Display grade is Average
+            If grade is F, then
+                Display grade is Poor
+        End switch
+Step 5: STOP
+            
